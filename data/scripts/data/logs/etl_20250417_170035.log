@@ -1,0 +1,9 @@
+2025-04-17 17:00:35,898 - etl_orchestrator - INFO - Starting preschool data ETL process
+2025-04-17 17:00:35,898 - etl_orchestrator - INFO - Running extract_cspp_data.py...
+2025-04-17 17:00:35,920 - etl_orchestrator - ERROR - extract_cspp_data.py failed with error code 1
+2025-04-17 17:00:35,921 - etl_orchestrator - ERROR - Error output: Traceback (most recent call last):
+  File "/Users/kai/PreschoolReviewApp/data/scripts/extract_cspp_data.py", line 10, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+2025-04-17 17:00:35,921 - etl_orchestrator - ERROR - Data extraction failed. Exiting.
